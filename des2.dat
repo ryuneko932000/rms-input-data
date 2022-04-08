@@ -6,8 +6,8 @@ Opcion   EdE   Funcion Alfa
   1      SRK   Soave
   2      PR    Soave
   3      PR    Stryjek-Vera
-  4      SRK   Melhem et al.
-  5      PR    Melhem et al.
+  4      SRK   Melhem-et-al.
+  5      PR    Melhem-et-al.
   6      SRK   Yokozeki
   7      PR    Yokozeki
 Seleccion: 2
