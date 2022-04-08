@@ -1,2 +1,13 @@
 Nombre           p.m.    Tc [K]   Pc [bar]  omega   kappa1   alfa0    alfa1    beta1    beta2    Ctv [cm3/gr]       
 ChCl/EG(1:2)     87.92   602.     40.39     .952    0.       0.       0.       0.       0.       0.          
+
+Modelo termodinamico:
+Opcion   EdE   Funcion Alfa
+  1      SRK   Soave
+  2      PR    Soave
+  3      PR    Stryjek-Vera
+  4      SRK   Melhem et al.
+  5      PR    Melhem et al.
+  6      SRK   Yokozeki
+  7      PR    Yokozeki
+Seleccion: 2
