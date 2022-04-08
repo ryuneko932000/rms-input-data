@@ -1,0 +1,109 @@
+Nombre           p.m.    Tc [K]   Pc [bar]  omega   kappa1   alfa0    alfa1    beta1    beta2    Ctv [cm3/gr]       
+ChCl/EG(1:2)     87.92   602.     40.39     .952    0.       0.       0.       0.       0.       0.          
+
+Modelo termodinamico:
+Opcion   EdE   Funcion Alfa
+  1      SRK   Soave
+  2      PR    Soave
+  3      PR    Stryjek-Vera
+  4      SRK   Melhem et al.
+  5      PR    Melhem et al.
+  6      SRK   Yokozeki
+  7      PR    Yokozeki
+Seleccion: 2
+
+Parametros a optimizar:
+Opcion   Parametros
+  1      A1, A2, A3, B1, B2, B3, C2, C3 (Quiñones-Cisneros et al., 2000)
+  2      A1, A2, A3, B1, B2, B3, C4 (Zeberg-Mikkelsen et al., 2002)
+  3      A0, A1, A2, B0, B1, B2, C0, C1, C2 (Quiñones-Cisneros & Dieters, 2006)
+  4      A1, A2, B1, B2, C2, C3 (Macias-Salinas, 2018)
+  5      B1, C2, C3 (Macias-Salinas, 2021)
+Seleccion: 5
+
+Estimados iniciales de los parametros a optimizar:
+A0 [cp/bar]  = 0.
+A1 [cP/bar]  = 0.
+A2 [cP/bar]  = 0.
+A3 [cP/bar]  = 0. 
+B0 [cp/bar]  = 0.
+B1 [cP/bar]  = -7.169091920327377e-05
+B2 [cP/bar]  = 0.
+B3 [cP/bar]  = 0. 
+C0 [cP/bar2] = 0.  
+C1 [cP/bar2] = 0.  
+C2 [cP/bar2] = 6.361416528504970e-10
+C3 [cP/bar2] = 2.271388267599518e-13
+C4 [cp/bar2] = 0. 
+
+Metodo de optimizacion:
+Opcion   Algoritmo
+  1      Levenberg-Marquardt (L-M)
+  2      Nelder-Mead (N-M)
+  3      Powell (POWELL)
+  4      Differential-Evolution (D-E)
+Seleccion: 2
+
+¿Llevar a cabo la optimizacion? (1=Si, 2=No)
+2
+
+¿Graficar resultados? (1=Si, 2=No)
+2
+
+P [MPa]   T [K]      ETA [mPa-s]   
+.101325   293.15     59.144           
+.101325   298.15     47.742        
+.101325   303.15     39.101        
+.101325   308.15     32.423        
+.101325   313.15     27.439        
+.101325   318.15     23.034        
+.101325   323.15     19.697        
+.101325   328.15     16.994        
+.101325   333.15     14.76         
+.101325   338.15     12.946        
+.101325   343.15     11.418        
+.101325   348.15     10.132        
+.101325   353.15     9.0139        
+.101325   358.15     8.1121        
+.101325   363.15     7.3123        
+.101325   368.15     6.6135        
+.101325   373.15     6.013         
+.1        313.15     27.64                  
+1.0       313.15     29.87         
+5.0       313.15     30.59         
+12.0      313.15     31.72         
+20.0      313.15     32.93         
+40.0      313.15     35.87         
+60.0      313.15     39.58         
+80.0      313.15     43.39         
+.1        333.15     15.47         
+1.0       333.15     15.16         
+5.0       333.15     15.6          
+12.0      333.15     16.01         
+20.0      333.15     16.53         
+40.0      333.15     17.91         
+60.0      333.15     20.85         
+80.0      333.15     22.92         
+100.0     333.15     24.53         
+.1        353.15     9.41          
+1.0       353.15     9.51          
+5.0       353.15     9.57          
+12.0      353.15     9.76          
+20.0      353.15     10.06         
+40.0      353.15     10.89         
+60.0      353.15     11.76         
+80.0      353.15     12.57         
+100.0     353.15     14.2          
+.1        373.15     6.31          
+1.0       373.15     6.43           
+5.0       373.15     6.56           
+12.0      373.15     6.66          
+20.0      373.15     6.81          
+40.0      373.15     7.3           
+60.0      373.15     8.28          
+70.0      373.15     8.69          
+80.0      373.15     8.88          
+100.0     373.15     9.45          
+
+FUENTE DATOS EXPERIMENTALES:
+Crespo et al., Fluid Phase Equilibria, 500, 112249, (2019)
